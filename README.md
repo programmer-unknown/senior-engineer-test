@@ -1,7 +1,7 @@
 **Rest API nodejs express typescript**
 <br /> Description project:
-This program built for orenda employer test.
-How running this program:
+This program built for orenda employer test.<br />
+How running this program:<br />
 
 1.  clone from github by following this syntax
     git clone https://github.com/programmer-unknown/senior-engineer-test.git or download ZIP
@@ -14,27 +14,27 @@ Endpoints:
 - Description API:
 * create jobs
   endpoint: POST http://localhost:3001/api/jobs
-  payload:
-  title: string;
-  remarks: string;
-  jobDate: Date;
-  startTime: string;
+  <br />payload:<br />
+  title: string;<br />
+  remarks: string;<br />
+  jobDate: Date;<br />
+  startTime: string;<br />
   endTime: string;
 
 * assign schedule
-  endpoint: POST http://localhost:3001/api/jobs/assign
-  payload:
-  idUser: number;
+  <br />endpoint: POST http://localhost:3001/api/jobs/assign
+  payload:<br />
+  idUser: number;<br />
   id: number;
 
 * unassign schedule
-  endpoint: POST http://localhost:3001/api/jobs/unassign
-  payload:
+  <br />endpoint: POST http://localhost:3001/api/jobs/unassign
+  payload:<br />
   id: number;
 
 * list common by date
-  endpoint: GET http://localhost:3001/api/jobs/common
-  payload:
+  <br />endpoint: GET http://localhost:3001/api/jobs/common
+  payload:<br />
   jobDate: Date;
 
 ---
@@ -47,5 +47,5 @@ How running this test tool:
 
 ---
 
-Thank you!
-Irin Saputra
+Thank you!<br />
+<h1>Irin Saputra</h1>
