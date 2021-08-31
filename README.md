@@ -1,4 +1,4 @@
-<h1>Rest API nodejs express typescript</h1>
+<h1 >Rest API nodejs express typescript</h1>
 <br /> Description project:
 This program built for orenda employer test.<br />
 How running this program:<br />
@@ -13,7 +13,7 @@ How running this program:<br />
 Endpoints:
 - Description API:
 * create jobs
-  endpoint: POST http://localhost:3001/api/jobs
+  <br />endpoint: POST http://localhost:3001/api/jobs
   <br />payload:<br />
   title: string;<br />
   remarks: string;<br />
