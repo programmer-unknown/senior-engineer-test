@@ -8,12 +8,12 @@ How running this program:
 2.  import database "src/db/orenda.sql" into your mysql DBMS
 3.  install the package: yarn install
 4.  running program: yarn dev
-    Endpoints:
+    
 
+Endpoints:
 - Description API:
-
 * create jobs
-  endpoint: POST url
+  endpoint: POST http://localhost:3001/api/jobs
   payload:
   title: string;
   remarks: string;
