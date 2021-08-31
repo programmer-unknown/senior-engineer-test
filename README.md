@@ -1,4 +1,4 @@
-**Rest API nodejs express typescript**
+<h1>Rest API nodejs express typescript</h1>
 <br /> Description project:
 This program built for orenda employer test.<br />
 How running this program:<br />
@@ -23,18 +23,18 @@ Endpoints:
 
 * assign schedule
   <br />endpoint: POST http://localhost:3001/api/jobs/assign
-  payload:<br />
+  <br />payload:<br />
   idUser: number;<br />
   id: number;
 
 * unassign schedule
   <br />endpoint: POST http://localhost:3001/api/jobs/unassign
-  payload:<br />
+  <br />payload:<br />
   id: number;
 
 * list common by date
   <br />endpoint: GET http://localhost:3001/api/jobs/common
-  payload:<br />
+  <br />payload:<br />
   jobDate: Date;
 
 ---
