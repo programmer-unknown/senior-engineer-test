@@ -39,7 +39,7 @@ Endpoints:
 
 ---
 
-Test tool API: Cypress
+Test tool API: Cypress<br />
 How running this test tool:
 
 1. Run Cypress: npx cypress open
