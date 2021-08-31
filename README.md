@@ -1,5 +1,5 @@
 #Rest API nodejs express typescript
-Description:
+Description Api:
 This program built for orenda employer test.
 How running this program:
 
@@ -8,10 +8,11 @@ How running this program:
 2.  import database "src/db/orenda.sql" into your mysql DBMS
 3.  install the package: yarn install
 4.  running program: yarn dev
-    
 
 Endpoints:
+
 - Description API:
+
 * create jobs
   endpoint: POST http://localhost:3001/api/jobs
   payload:
